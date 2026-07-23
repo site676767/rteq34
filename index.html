@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MERIDIAN AERO LEASING</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="455.jpeg">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #111;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Общий контейнер для выравнивания по центру */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  background-color: #0d1b2a;
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 3px solid #e63946;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  max-width: 90%;
+  word-wrap: break-word;
+}
+
+.header p {
+  font-size: 1.2em;
+  margin: 0;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Логотип и название */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+/* Изображение logo с чуть смещённым влево */
+.logo img {
+  margin-right: 15px;
+  margin-left: -10px; /* сдвиг влево */
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+.logo h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin: 0;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+/* Меню */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #1b263b;
+  padding: 15px 10px;
+}
+.menu a {
+  margin: 10px 15px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  transition: background 0.3s, transform 0.3s;
+}
+.menu a:hover {
+  background-color: #e63946;
+  transform: translateY(-2px);
+  border-radius: 5px;
+}
+
+/* Секции и контент */
+section {
+  padding: 50px 20px;
+}
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #e63946;
+  position: relative;
+}
+
+/* Оформление раздела */
+h2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #e63946;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.content-block {
+  background-color: #222;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.content-block h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.content-block ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+.content-block p {
+  margin-top: 15px;
+}
+
+/* Футер */
+.footer {
+  background-color: #0d1b2a;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 0.9em;
+  border-top: 3px solid #e63946;
+}
+.footer p {
+  margin: 5px 0;
+}
+
+/* Выравнивание элементов в футере, логотипе */
+.logo svg {
+  width: 60px;
+  height: 60px;
+  fill: #e63946;
+}
+
+/* Адаптивность: для мобильных устройств */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .header h1 {
+    font-size: 2em;
+  }
+  .header p {
+    font-size: 1em;
+  }
+  .logo {
+    flex-direction: column;
+  }
+  .logo img {
+    margin: 0 0 10px 0;
+    margin-left: -15px; /* чуть сильнее сдвигать влево на мобильных */
+  }
+  .logo h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .menu {
+    flex-direction: column;
+  }
+  .menu a {
+    margin: 10px 0;
+  }
+  section {
+    padding: 30px 15px;
+  }
+  img {
+    width: 100px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<header class="header">
+  <div class="logo">
+    <!-- Логотип и название -->
+    <img src="455.jpeg" alt="Логотип" />
+    <h1>MERIDIAN AERO LEASING</h1>
+  </div>
+  <p>Самая строгая авиационная компания в ОАЭ</p>
+</header>
+
+<nav class="menu">
+  <a href="#about">О компании</a>
+  <a href="#activities">Деятельность</a>
+  <a href="#markets">Рынки</a>
+  <a href="#management">Руководство</a>
+  <a href="#contact">Контакты</a>
+</nav>
+
+<section id="about">
+  <h2>Обзор компании</h2>
+  <div class="content-block">
+    <h3>MERIDIAN AERO LEASING (FZE)</h3>
+    <p>Компания, основанная в ОАЭ, специализируется на предоставлении авиационных решений, включая чартерные услуги и аренду авиационной техники. Основная задача — развитие бизнес-возможностей в авиационной сфере, обслуживание корпоративных клиентов, частных лиц и международных партнеров.</p>
+    <p>Все операции осуществляются в строгом соответствии с законами ОАЭ и требуют соответствующих разрешений и лицензий.</p>
+  </div>
+</section>
+
+<section id="activities">
+  <h2>Деятельность</h2>
+  <div class="content-block">
+    <h3>Основные услуги</h3>
+    <ul>
+      <li>Авиатранспортные услуги (чартер)</li>
+      <li>Аренда и лизинг самолетов</li>
+      <li>Аренда авиационного оборудования</li>
+      <li>Поддержка авиационных операций</li>
+    </ul>
+    <p>Фокусируемся на предоставлении индивидуальных и гибких решений для частных, корпоративных и коммерческих клиентов.</p>
+  </div>
+</section>
+
+<section id="markets">
+  <h2>Рынки и клиенты</h2>
+  <div class="content-block">
+    <h3>Целевые клиенты и регионы</h3>
+    <ul>
+      <li>Личности, требующие деловую авиацию</li>
+      <li>Корпоративные клиенты</li>
+      <li>Международные деловые группы</li>
+      <li>Авиакомпании и партнеры индустрии</li>
+    </ul>
+    <p>Стратегическая локация в ОАЭ обеспечивает международное покрытие и развитие бизнеса на глобальном уровне.</p>
+  </div>
+</section>
+
+<section id="management">
+  <h2>Руководство</h2>
+  <div class="content-block">
+    <h3>Генеральный директор</h3>
+    <p><strong>Мистер Стефан Росина</strong> — руководитель компании, ответственный за стратегическое развитие, бизнес-связи и управление проектами. Компания строго соблюдает все нормативы и получает все необходимые разрешения для деятельности в соответствии с законами ОАЭ.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Контакты</h2>
+  <div class="content-block">
+    <p>Адрес: Шарджа, Саиф Oфис Q1-09-007/A, Свободная зона аэропорта Шарджа, ОАЭ</p>
+    <p>Телефон: +971 50 123 4567</p>
+    <p>Email: info@meridianaero.ae</p>
+  </div>
+</section>
+
+<footer class="footer">
+    <img src="455.jpeg" alt="">
+  <p>&copy; 2023 MERIDIAN AERO LEASING. Все права защищены.</p>
+  <p>Строгое соблюдение стандартов безопасности и конфиденциальности.</p>
+</footer>
+</div>
+
+<!-- Варианты двух вопросов от лица пользователя -->
+<div style="display:none;">
+{Расскажи подробнее о планах расширения компании}
+{Объясни стратегию выхода на новые рынки}
+</div>
+
+<script>
+// Можно добавить скрипты, если потребуется
+</script>
+
+</body>
+</html>
